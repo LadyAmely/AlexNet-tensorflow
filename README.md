@@ -19,9 +19,9 @@ This project uses the **CIFAR-10 dataset**, which contains:
 ## Results
 Using 15,000 training samples and 3,000 test samples, the model achieved the following results:
 
-- **Precision**: **70.26%**
-- **Recall**: **69.95%**
-- **F1-Score**: **69.93%**
+- **Precision**: **70.97%**
+- **Recall**: **70.63%**
+- **F1-Score**: **70.66%**
 ---
 ## About AlexNet
 AlexNet is a convolutional neural network (CNN) originally introduced in 2012 by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton. 
