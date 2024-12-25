@@ -16,11 +16,10 @@ class AlexNet(tf.keras.Model):
         self.conv5 = tf.keras.layers.Conv2D(filters=64, kernel_size=3, padding='SAME', activation='relu')
         self.pool3 = tf.keras.layers.MaxPooling2D(pool_size=2, strides=2)
 
-
         self.flatten = tf.keras.layers.Flatten()
-        self.fc1 = tf.keras.layers.Dense(units=512, activation='relu')
+        self.fc1 = tf.keras.layers.Dense(units=256, activation='relu')
         self.dropout1 = tf.keras.layers.Dropout(0.5)
-        self.fc2 = tf.keras.layers.Dense(units=256, activation='relu')
+        self.fc2 = tf.keras.layers.Dense(units=128, activation='relu')
         self.dropout2 = tf.keras.layers.Dropout(0.5)
         self.output_layer = tf.keras.layers.Dense(units=num_classes, activation='softmax')
 
