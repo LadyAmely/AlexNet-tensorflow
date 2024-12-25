@@ -22,5 +22,10 @@ Using 15,000 training samples and 3,000 test samples, the model achieved the fol
 - **Precision**: **70.26%**
 - **Recall**: **69.95%**
 - **F1-Score**: **69.93%**
+---
+## About AlexNet
+AlexNet is a convolutional neural network (CNN) originally introduced in 2012 by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton. 
+
+For more details, you can read the official paper: ["ImageNet Classification with Deep Convolutional Neural Networks"](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf).
 
 
