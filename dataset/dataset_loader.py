@@ -8,29 +8,29 @@ def preprocess_image(image, label):
     return image, label
 
 def load_and_preprocess_data(batch_size=32):
-    # Ustal liczbę próbek na stałe
+
     train_subset_size = 10000
     test_subset_size = 2000
 
-    # Wczytaj dane CIFAR-10
+
     (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
-    # Wybierz losowe podzbiory danych
+
     train_indices = np.random.choice(len(x_train), train_subset_size, replace=False)
     test_indices = np.random.choice(len(x_test), test_subset_size, replace=False)
 
     x_train, y_train = x_train[train_indices], y_train[train_indices]
     x_test, y_test = x_test[test_indices], y_test[test_indices]
 
-    # One-hot encoding etykiet
+
     y_train = tf.keras.utils.to_categorical(y_train, 10)
     y_test = tf.keras.utils.to_categorical(y_test, 10)
 
-    # Utwórz zestawy danych TensorFlow
+
     train_ds = tf.data.Dataset.from_tensor_slices((x_train, y_train))
     test_ds = tf.data.Dataset.from_tensor_slices((x_test, y_test))
 
-    # Przetwarzanie i batchowanie
+
     train_ds = (
         train_ds
         .map(preprocess_image, num_parallel_calls=tf.data.AUTOTUNE)
