@@ -13,7 +13,7 @@ AlexNet is a convolutional neural network (CNN) originally designed for large-sc
 
 ## Dataset
 This project uses the **CIFAR-10 dataset**, which contains:
-- 15,000 training images and 3,000 test images (subset of CIFAR-10).
+- 20,000 training images and 4,000 test images (subset of CIFAR-10).
 - 10 classes: Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck.
 
 ## Results
@@ -23,7 +23,7 @@ Using 20,000 training samples and 4,000 test samples, the model achieved the fol
 - **Recall**: **70.63%**
 - **F1-Score**: **70.66%**
 ---
-![CIFAR-10](https://github.com/LadyAmely/LeNet-5-tensorflow/blob/master/plots/mnist_predictions_visualization.png)
+![CIFAR-10](https://github.com/LadyAmely/AlexNet-tensorflow/blob/master/plots/predictions_visualizations.png)
 ---
 ## About AlexNet
 AlexNet is a convolutional neural network (CNN) originally introduced in 2012 by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton. 
