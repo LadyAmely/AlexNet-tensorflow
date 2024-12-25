@@ -17,7 +17,7 @@ This project uses the **CIFAR-10 dataset**, which contains:
 - 10 classes: Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck.
 
 ## Results
-Using 15,000 training samples and 3,000 test samples, the model achieved the following results:
+Using 20,000 training samples and 4,000 test samples, the model achieved the following results:
 
 - **Precision**: **70.97%**
 - **Recall**: **70.63%**
