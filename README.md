@@ -23,6 +23,8 @@ Using 20,000 training samples and 4,000 test samples, the model achieved the fol
 - **Recall**: **70.63%**
 - **F1-Score**: **70.66%**
 ---
+![CIFAR-10](https://github.com/LadyAmely/LeNet-5-tensorflow/blob/master/plots/mnist_predictions_visualization.png)
+---
 ## About AlexNet
 AlexNet is a convolutional neural network (CNN) originally introduced in 2012 by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton. 
 
