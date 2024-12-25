@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74abe632-fcd1-4b7e-8665-888003fe6a87" name="Changes" comment="alexnet-4">
+    <list default="true" id="74abe632-fcd1-4b7e-8665-888003fe6a87" name="Changes" comment="alexnet-5">
       <change beforePath="$PROJECT_DIR$/dataset/dataset_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/dataset_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_models/alexnet.h5" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models/alexnet.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_models/alexnet.keras" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models/alexnet.keras" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_models/alexnet/fingerprint.pb" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models/alexnet/fingerprint.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_models/alexnet/saved_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models/alexnet/saved_model.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_models/alexnet/variables/variables.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models/alexnet/variables/variables.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_models/alexnet/variables/variables.index" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models/alexnet/variables/variables.index" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +163,7 @@
       <workItem from="1734972131571" duration="7222000" />
       <workItem from="1735051395161" duration="992000" />
       <workItem from="1735123632744" duration="13186000" />
-      <workItem from="1735153636173" duration="4634000" />
+      <workItem from="1735153636173" duration="6225000" />
     </task>
     <task id="LOCAL-00001" summary="alexnet">
       <option name="closed" value="true" />
@@ -191,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735159185477</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="alexnet-5">
+      <option name="closed" value="true" />
+      <created>1735159504021</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735159504021</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,12 +216,13 @@
     <MESSAGE value="alexnet-2" />
     <MESSAGE value="alexnet-3" />
     <MESSAGE value="alexnet-4" />
-    <option name="LAST_COMMIT_MESSAGE" value="alexnet-4" />
+    <MESSAGE value="alexnet-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="alexnet-5" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AlexNet$train_model.coverage" NAME="train_model Coverage Results" MODIFIED="1735157191578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/AlexNet$train_model.coverage" NAME="train_model Coverage Results" MODIFIED="1735159643590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
     <SUITE FILE_PATH="coverage/AlexNet$alexnet.coverage" NAME="alexnet Coverage Results" MODIFIED="1734946884813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AlexNet$prepare_dataset.coverage" NAME="prepare_dataset Coverage Results" MODIFIED="1734975246709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/AlexNet$evaluate_model.coverage" NAME="evaluate_model Coverage Results" MODIFIED="1735159069444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/AlexNet$evaluate_model.coverage" NAME="evaluate_model Coverage Results" MODIFIED="1735161692741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
   </component>
 </project>

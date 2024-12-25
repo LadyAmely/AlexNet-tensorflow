@@ -9,8 +9,8 @@ def preprocess_image(image, label):
 
 def load_and_preprocess_data(batch_size=32):
 
-    train_subset_size = 10000
-    test_subset_size = 2000
+    train_subset_size = 15000
+    test_subset_size = 3000
 
 
     (x_train, y_train), (x_test, y_test) = cifar10.load_data()
