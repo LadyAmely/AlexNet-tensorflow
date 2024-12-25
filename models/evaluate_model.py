@@ -4,9 +4,9 @@ from dataset.dataset_loader import load_and_preprocess_data
 import matplotlib.pyplot as plt
 from sklearn.metrics import precision_score, recall_score, f1_score
 
-def visualize_predictions(x_test, y_test, y_pred, num_images=16):
+def visualize_predictions(x_test, y_test, y_pred, num_images=100):
 
-    plt.figure(figsize=(12, 12))
+    plt.figure(figsize=(15, 15))
     num_rows = int(np.ceil(np.sqrt(num_images)))
     num_cols = int(np.ceil(num_images / num_rows))
 

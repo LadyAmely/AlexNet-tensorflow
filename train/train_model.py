@@ -9,7 +9,7 @@ import tensorflow as tf
 
 def train_model():
 
-    train_ds, test_ds = load_and_preprocess_data(batch_size=64)
+    train_ds, test_ds = load_and_preprocess_data(batch_size=128)
     model = AlexNet(input_shape=(224, 224, 3), num_classes=10)
     optimizer = tf.keras.optimizers.Adam(learning_rate=1e-4)
     model.compile(optimizer=optimizer,
