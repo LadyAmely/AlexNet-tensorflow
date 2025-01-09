@@ -2,6 +2,7 @@
 
 This repository contains an implementation of the AlexNet model for image classification tasks. The project utilizes the CIFAR-10 dataset, consisting of 10 classes of small images, resized to fit the input size required by AlexNet.
 
+![](https://komarev.com/ghpvc/?username=LadyAmely&color=green)
 ---
 ## Overview
 AlexNet is a convolutional neural network (CNN) originally designed for large-scale image classification tasks. It uses multiple convolutional layers, pooling layers, and fully connected layers to extract and classify image features. In this repository:
